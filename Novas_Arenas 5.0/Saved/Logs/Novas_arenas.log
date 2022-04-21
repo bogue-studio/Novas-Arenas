@@ -984,3 +984,87 @@ Recommended: 22.2.2
 [2022.04.21-14.13.18:818][755]LogFileHelpers: No new changes to save!
 [2022.04.21-14.13.18:847][755]AssetCheck: New page: Asset Save: TestMap
 [2022.04.21-14.13.18:847][755]LogContentValidation: Display: Validating World /Game/Maps/TestMap.TestMap
+[2022.04.21-14.14.15:665][947]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.04.21-14.14.15:731][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.21-14.14.15:758][947]PIE: New page: PIE session: TestMap (21 avr. 2022 à 18:14:15)
+[2022.04.21-14.14.15:782][947]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.04.21-14.14.15:782][947]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.04.21-14.14.15:783][947]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.04.21-14.14.15:838][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055293s)
+[2022.04.21-14.14.15:839][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.055705s)
+[2022.04.21-14.14.15:839][947]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.04.21-14.14.15:839][947]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.04.21-14.14.15:841][947]LogAIModule: Creating AISystem for world TestMap
+[2022.04.21-14.14.15:851][947]LogPlayLevel: PIE: World Init took: (0.011993s)
+[2022.04.21-14.14.15:863][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.04.21-14.14.15:868][947]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.04.21-14.14.15:869][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.21-14.14.15:869][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.21-14.14.15:869][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.21-14.14.15:869][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.21-14.14.15:869][947]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.21-14.14.15:869][947]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.04.21-14.14.15:869][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.21-14.14.15:869][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.21-14.14.15:870][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.21-14.14.15:870][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.21-14.14.15:870][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.21-14.14.15:875][947]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.04.21-14.14.17:244][947]LogAudioMixer: Display: Using Audio Hardware Device Casque pour téléphone (CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.04.21-14.14.17:244][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.21-14.14.17:244][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.21-14.14.17:244][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.21-14.14.17:245][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.04.21-14.14.17:245][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.04.21-14.14.17:249][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.04.21-14.14.17:249][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.04.21-14.14.17:249][947]LogInit: FAudioDevice initialized.
+[2022.04.21-14.14.17:249][947]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestMap'.
+[2022.04.21-14.14.17:298][947]LogLoad: Game class is 'Gm_Player_C'
+[2022.04.21-14.14.17:306][947]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.04.21-16.14.17
+[2022.04.21-14.14.17:334][947]LogWorld: Bringing up level for play took: 0.035547
+[2022.04.21-14.14.17:338][947]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2022.04.21-14.14.17:431][947]PIE: Server logged in
+[2022.04.21-14.14.17:432][947]PIE: Play in editor total start time 1,745 seconds.
+[2022.04.21-14.14.17:455][947]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '  (U+202f)'
+[2022.04.21-14.14.17:637][947]LogSlate: Took 0.180561 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Total job queries 14449, among them cache hits 101 (0.70%)
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Tracking 7813 distinct input hashes that result in 5360 distinct outputs (68.60%)
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: RAM used: 17.48 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.07%
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Shaders Compiled: 14348
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Jobs assigned 7893, completed 7813 (98.99%)
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Average time worker was idle: 0.26 s
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Time job spent in pending queue: average 419.84 s, longest 1042.32 s
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Job execution time: average 14.29 s, max 293.33 s
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Job life time (pending + execution): average 436.45 s, max 1069.84
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1300.24 s
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Jobs were issued in 829 batches (only local compilation was used), average 9.52 jobs/batch
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Average processing rate: 6.01 jobs/sec
+[2022.04.21-14.15.15:904][113]LogShaderCompilers: Display: Effective parallelization: 8.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 29.29 sec, max 29.29 sec, min 29.29 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                       FTranscodePageToGPU_CS (compiled    1 times, average 28.45 sec, max 28.45 sec, min 28.45 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                  FOITSortTriangleIndex_Debug (compiled    1 times, average 25.08 sec, max 25.08 sec, min 25.08 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled    3 times, average 22.65 sec, max 30.28 sec, min 17.00 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                    FPersistentClusterCull_CS - 6.49% of total time (compiled   48 times, average 14.70 sec, max 24.73 sec, min 8.09 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                        FDiaphragmDOFGatherCS - 5.90% of total time (compiled   41 times, average 15.64 sec, max 46.93 sec, min 1.07 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                             FInstanceCull_CS - 4.70% of total time (compiled  320 times, average 1.60 sec, max 5.57 sec, min 0.72 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                                          FClusteredShadingPS - 4.22% of total time (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 3.20% of total time (compiled  128 times, average 2.72 sec, max 5.71 sec, min 1.42 sec)
+[2022.04.21-14.15.15:905][113]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.15.33:871][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.21-14.15.33:871][372]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.04.21-14.15.33:872][372]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.21-14.15.33:890][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.21-14.15.33:914][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.21-14.15.33:921][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.21-14.15.33:934][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.21-14.15.33:936][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.04.21-14.15.33:939][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.04.21-14.15.33:962][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.04.21-14.15.34:064][373]LogPlayLevel: Display: Destroying online subsystem :Context_1
