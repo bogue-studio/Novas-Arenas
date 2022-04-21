@@ -1068,3 +1068,818 @@ Recommended: 22.2.2
 [2022.04.21-14.15.33:939][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2022.04.21-14.15.33:962][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
 [2022.04.21-14.15.34:064][373]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.04.21-14.17.26:084][699]LogSlate: Took 0.025937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.04.21-14.17.26:115][699]LogSlate: Took 0.008346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.21-14.17.38:636][413]LogStatusBar: Looking status bar with open content browser drawer...
+[2022.04.21-14.17.38:636][413]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Total job queries 14449, among them cache hits 101 (0.70%)
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Tracking 8493 distinct input hashes that result in 5618 distinct outputs (66.15%)
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: RAM used: 18.40 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.12%
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Shaders Compiled: 14348
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Jobs assigned 8573, completed 8493 (99.07%)
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Average time worker was idle: 0.24 s
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Time job spent in pending queue: average 409.02 s, longest 1042.32 s
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Job execution time: average 14.67 s, max 293.33 s
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Job life time (pending + execution): average 424.17 s, max 1069.84
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1481.35 s
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Jobs were issued in 897 batches (only local compilation was used), average 9.56 jobs/batch
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Average processing rate: 5.73 jobs/sec
+[2022.04.21-14.18.17:016][567]LogShaderCompilers: Display: Effective parallelization: 8.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.04.21-14.18.17:017][567]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.04.21-14.18.17:017][567]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.18.17:017][567]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 29.29 sec, max 29.29 sec, min 29.29 sec)
+[2022.04.21-14.18.17:017][567]LogShaderCompilers: Display:                                       FTranscodePageToGPU_CS (compiled    1 times, average 28.45 sec, max 28.45 sec, min 28.45 sec)
+[2022.04.21-14.18.17:017][567]LogShaderCompilers: Display:                                  FOITSortTriangleIndex_Debug (compiled    1 times, average 25.08 sec, max 25.08 sec, min 25.08 sec)
+[2022.04.21-14.18.17:017][567]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 20.22 sec, max 20.22 sec, min 20.22 sec)
+[2022.04.21-14.18.17:018][567]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.04.21-14.18.17:018][567]LogShaderCompilers: Display:                                    FPersistentClusterCull_CS - 5.83% of total time (compiled   48 times, average 14.70 sec, max 24.73 sec, min 8.09 sec)
+[2022.04.21-14.18.17:018][567]LogShaderCompilers: Display:                                        FDiaphragmDOFGatherCS - 5.30% of total time (compiled   41 times, average 15.64 sec, max 46.93 sec, min 1.07 sec)
+[2022.04.21-14.18.17:018][567]LogShaderCompilers: Display:                                             FInstanceCull_CS - 4.22% of total time (compiled  320 times, average 1.60 sec, max 5.57 sec, min 0.72 sec)
+[2022.04.21-14.18.17:018][567]LogShaderCompilers: Display:                                          FClusteredShadingPS - 3.79% of total time (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.18.17:018][567]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 2.87% of total time (compiled  128 times, average 2.72 sec, max 5.71 sec, min 1.42 sec)
+[2022.04.21-14.18.17:018][567]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.18.32:658][177]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.04.21-14.18.32:676][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.21-14.18.32:677][177]PIE: New page: PIE session: TestMap (21 avr. 2022 à 18:18:32)
+[2022.04.21-14.18.32:677][177]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.04.21-14.18.32:735][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058094s)
+[2022.04.21-14.18.32:735][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.058282s)
+[2022.04.21-14.18.32:735][177]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.04.21-14.18.32:735][177]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.04.21-14.18.32:736][177]LogAIModule: Creating AISystem for world TestMap
+[2022.04.21-14.18.32:737][177]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2022.04.21-14.18.32:760][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.04.21-14.18.32:775][177]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.04.21-14.18.32:775][177]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.21-14.18.32:776][177]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.21-14.18.32:776][177]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.21-14.18.32:776][177]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.21-14.18.32:776][177]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.21-14.18.32:776][177]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.04.21-14.18.32:776][177]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.21-14.18.32:776][177]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.21-14.18.32:777][177]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.21-14.18.32:777][177]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.21-14.18.32:777][177]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.21-14.18.32:782][177]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.04.21-14.18.34:102][177]LogAudioMixer: Display: Using Audio Hardware Device Casque pour téléphone (CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.04.21-14.18.34:103][177]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.21-14.18.34:103][177]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.21-14.18.34:103][177]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.21-14.18.34:105][177]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.04.21-14.18.34:105][177]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.04.21-14.18.34:108][177]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.04.21-14.18.34:108][177]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.04.21-14.18.34:108][177]LogInit: FAudioDevice initialized.
+[2022.04.21-14.18.34:108][177]LogAudio: Display: Audio Device (ID: 3) registered with world 'TestMap'.
+[2022.04.21-14.18.34:135][177]LogLoad: Game class is 'Gm_Player_C'
+[2022.04.21-14.18.34:140][177]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.04.21-16.18.34
+[2022.04.21-14.18.34:141][177]LogWorld: Bringing up level for play took: 0.005825
+[2022.04.21-14.18.34:146][177]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2022.04.21-14.18.34:153][177]PIE: Server logged in
+[2022.04.21-14.18.34:155][177]PIE: Play in editor total start time 1,483 seconds.
+[2022.04.21-14.18.51:945][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.21-14.18.51:946][466]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.04.21-14.18.51:947][466]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.21-14.18.51:948][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.21-14.18.51:980][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.21-14.18.51:987][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.21-14.18.52:001][466]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.21-14.18.52:001][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.04.21-14.18.52:004][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.04.21-14.18.52:016][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.21-14.18.52:025][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.04.21-14.18.52:197][467]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.04.21-14.19.11:791][171]Cmd: DELETE
+[2022.04.21-14.19.11:791][171]Cmd: ACTOR DELETE
+[2022.04.21-14.19.11:889][171]LogEditorActor: Deleted Actor: Bp_MainHerosTest_C
+[2022.04.21-14.19.11:929][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.04.21-14.19.11:941][171]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2022.04.21-14.19.18:109][575]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.04.21-14.19.18:130][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.21-14.19.18:130][575]PIE: New page: PIE session: TestMap (21 avr. 2022 à 18:19:18)
+[2022.04.21-14.19.18:130][575]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.04.21-14.19.18:190][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059763s)
+[2022.04.21-14.19.18:190][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.059919s)
+[2022.04.21-14.19.18:190][575]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.04.21-14.19.18:190][575]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.04.21-14.19.18:191][575]LogAIModule: Creating AISystem for world TestMap
+[2022.04.21-14.19.18:192][575]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2022.04.21-14.19.18:211][575]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2022.04.21-14.19.18:215][575]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.04.21-14.19.18:215][575]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.21-14.19.18:215][575]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.21-14.19.18:215][575]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.21-14.19.18:215][575]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.21-14.19.18:215][575]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.21-14.19.18:215][575]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.04.21-14.19.18:215][575]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.21-14.19.18:215][575]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.21-14.19.18:216][575]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.21-14.19.18:217][575]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.21-14.19.18:217][575]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.21-14.19.18:220][575]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.04.21-14.19.19:572][575]LogAudioMixer: Display: Using Audio Hardware Device Casque pour téléphone (CORSAIR VOID ELITE Wireless Gaming Headset)
+[2022.04.21-14.19.19:573][575]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.21-14.19.19:573][575]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.21-14.19.19:573][575]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.21-14.19.19:574][575]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.04.21-14.19.19:575][575]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.04.21-14.19.19:580][575]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.04.21-14.19.19:581][575]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.04.21-14.19.19:581][575]LogInit: FAudioDevice initialized.
+[2022.04.21-14.19.19:581][575]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestMap'.
+[2022.04.21-14.19.19:605][575]LogLoad: Game class is 'Gm_Player_C'
+[2022.04.21-14.19.19:609][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.04.21-16.19.19
+[2022.04.21-14.19.19:610][575]LogWorld: Bringing up level for play took: 0.004307
+[2022.04.21-14.19.19:615][575]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2022.04.21-14.19.19:621][575]PIE: Server logged in
+[2022.04.21-14.19.19:622][575]PIE: Play in editor total start time 1,494 seconds.
+[2022.04.21-14.19.58:385][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.21-14.19.58:385][339]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.04.21-14.19.58:385][339]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.21-14.19.58:387][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.21-14.19.58:417][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.21-14.19.58:424][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.21-14.19.58:438][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.21-14.19.58:440][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.04.21-14.19.58:443][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.04.21-14.19.58:461][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2022.04.21-14.19.58:494][340]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.04.21-14.20.14:201][176]LogMaterial: Display: Missing cached shadermap for LayerVisMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: CBA365BD3B06E41670F592F5EADBCD82FEA94EF3), compiling. 
+[2022.04.21-14.20.14:226][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9E24E9E88D9B51DAAC81F938701E4D005510BA3D), compiling. 
+[2022.04.21-14.20.14:283][176]LogMaterial: Display: Missing cached shadermap for SelectBrushMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: B3CD2A668B28C90408FB6F9CD6E7881A2A69A670), compiling. 
+[2022.04.21-14.20.14:318][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 10EFDBD418B31C713E4E21B8B9E181891A563861), compiling. 
+[2022.04.21-14.20.14:393][176]LogMaterial: Display: Missing cached shadermap for SelectBrushMaterial_SelectedRegion in PCD3D_SM5, Default, SM5 (DDC key hash: 563B7CFBF4C784D08A39B18CB5D3A984FB5AD50F), compiling. 
+[2022.04.21-14.20.14:428][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 870F079790B56DFDFCC0DE58930EBEE6D5A05D9B), compiling. 
+[2022.04.21-14.20.14:506][176]LogMaterial: Display: Missing cached shadermap for MaskBrushMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: ABFBAB222A314CA2294B919D72DF20F037798212), compiling. 
+[2022.04.21-14.20.14:540][176]LogMaterial: Display: Missing cached shadermap for MaskBrushMaterial_MaskedRegion in PCD3D_SM5, Default, SM5 (DDC key hash: CB4B6100E74284337EC308A14CE4EDCA1663BD26), compiling. 
+[2022.04.21-14.20.14:585][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_3 in PCD3D_SM5, Default, SM5 (DDC key hash: A55E8DCC9A6D34A4885D17484D4F2C8E7741CD25), compiling. 
+[2022.04.21-14.20.14:672][176]LogMaterial: Display: Missing cached shadermap for ColorMaskBrushMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 24E01190D4C5581E2CAE1B7B2032616B89F78AA5), compiling. 
+[2022.04.21-14.20.14:716][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 83166565A5207A8DFC9784F364F62524BB5219EC), compiling. 
+[2022.04.21-14.20.14:794][176]LogMaterial: Display: Missing cached shadermap for LandscapeDirtyMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 47B6E94239931766B3DC7C13A44562985C64C5E6), compiling. 
+[2022.04.21-14.20.14:834][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_5 in PCD3D_SM5, Default, SM5 (DDC key hash: FC5FE6F8CBC1D5AE5A6BEE9329DB749F3ECD4442), compiling. 
+[2022.04.21-14.20.14:924][176]LogMaterial: Display: Missing cached shadermap for LandscapeLayerUsageMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 2A763891D1503329A43EFD86DF081FF0E8A1CF96), compiling. 
+[2022.04.21-14.20.14:958][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 436502B2CD1B759911663439F0CC1EB495396E96), compiling. 
+[2022.04.21-14.20.15:024][176]LogMaterial: Display: Missing cached shadermap for FlattenHeightMat in PCD3D_SM5, Default, SM5 (DDC key hash: 8437D18F3B4C840904C1A069387AD4CC2F453A47), compiling. 
+[2022.04.21-14.20.15:085][176]LogMaterial: Display: Missing cached shadermap for MirrorPlaneMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: B68C458B819F16D1573CE95AF6A6904AB329E934), compiling. 
+[2022.04.21-14.20.15:142][176]LogMaterial: Display: Missing cached shadermap for CircleBrushMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 174F1001D80E844296D24F19FD971BCBD6E056C6), compiling. 
+[2022.04.21-14.20.15:181][176]LogMaterial: Display: Missing cached shadermap for CircleBrushMaterial_Smooth in PCD3D_SM5, Default, SM5 (DDC key hash: 3679DA98F120720549D8D2D760BB0567494601D6), compiling. 
+[2022.04.21-14.20.15:227][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 913FE66F82F4B6758D0EA931DD2491746FC91EF1), compiling. 
+[2022.04.21-14.20.15:323][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_8 in PCD3D_SM5, Default, SM5 (DDC key hash: B1A76E57528C5B5CE2080C3991F4D6E4F7CC0014), compiling. 
+[2022.04.21-14.20.15:405][176]LogMaterial: Display: Missing cached shadermap for CircleBrushMaterial_Spherical in PCD3D_SM5, Default, SM5 (DDC key hash: AA32F223BF1D420FDFC17B4DD31D5FFBE798BDC3), compiling. 
+[2022.04.21-14.20.15:441][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_9 in PCD3D_SM5, Default, SM5 (DDC key hash: 45BAA036071392D66920D124EC5F8151DFF4DD0E), compiling. 
+[2022.04.21-14.20.15:506][176]LogMaterial: Display: Missing cached shadermap for CircleBrushMaterial_Tip in PCD3D_SM5, Default, SM5 (DDC key hash: 34ECD0E6B57E99459A6C1896B43C477F1EF6E74A), compiling. 
+[2022.04.21-14.20.15:541][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_10 in PCD3D_SM5, Default, SM5 (DDC key hash: 0130DC9C6EACDFA532D62ACF890A5C6330E55F74), compiling. 
+[2022.04.21-14.20.15:603][176]LogMaterial: Display: Missing cached shadermap for AlphaBrushMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: E3AF4AFA37C1165774778C9741CDD70C16D8B4A3), compiling. 
+[2022.04.21-14.20.15:643][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_11 in PCD3D_SM5, Default, SM5 (DDC key hash: D1873453D7D2208C12C84F01CCFF0C8B31C3B33A), compiling. 
+[2022.04.21-14.20.15:724][176]LogMaterial: Display: Missing cached shadermap for PatternBrushMaterial_Smooth in PCD3D_SM5, Default, SM5 (DDC key hash: F00D2AA11E4937C91DD3E4A98986456F37386F1B), compiling. 
+[2022.04.21-14.20.15:761][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_12 in PCD3D_SM5, Default, SM5 (DDC key hash: 592B7C3DD0072CF982EB199097BFE1556783C59D), compiling. 
+[2022.04.21-14.20.15:836][176]LogMaterial: Display: Missing cached shadermap for MaskBrushMaterial_Gizmo in PCD3D_SM5, Default, SM5 (DDC key hash: 399E24326B46861C602A1DAF415A94B3F0A158A8), compiling. 
+[2022.04.21-14.20.15:877][176]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_14 in PCD3D_SM5, Default, SM5 (DDC key hash: 5CD07A44CB15AD5BC594D9B9ED48A9F006BF963B), compiling. 
+[2022.04.21-14.20.16:071][176]LogTexture: Display: Building textures: /Engine/Transient.Texture2D_6 (G8, 128X128 X1X1) (Required Memory Estimate: 0.078125 MB), EncodeSpeed: Fast
+[2022.04.21-14.20.21:179][267]Cmd: TRANSACTION UNDO
+[2022.04.21-14.20.21:179][267]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.04.21-14.20.21:233][267]LogTexture: Display: Building textures: /Game/Maps/TestMap.TestMap:PersistentLevel.Landscape_0.Texture2D_5 (BGRA8, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2022.04.21-14.20.21:295][267]LogTexture: Display: Building textures: /Game/Maps/TestMap.TestMap:PersistentLevel.Landscape_0.Texture2D_4 (BGRA8, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2022.04.21-14.20.23:889][309]Cmd: TRANSACTION UNDO
+[2022.04.21-14.20.23:889][309]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.04.21-14.20.24:071][309]LogTexture: Display: Building textures: /Game/Maps/TestMap.TestMap:PersistentLevel.Landscape_0.Texture2D_5 (BGRA8, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2022.04.21-14.20.24:140][309]LogTexture: Display: Building textures: /Game/Maps/TestMap.TestMap:PersistentLevel.Landscape_0.Texture2D_4 (BGRA8, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2022.04.21-14.20.24:744][321]Cmd: TRANSACTION UNDO
+[2022.04.21-14.20.24:744][321]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.04.21-14.20.24:787][321]LogTexture: Display: Building textures: /Game/Maps/TestMap.TestMap:PersistentLevel.Landscape_0.Texture2D_5 (BGRA8, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2022.04.21-14.20.24:881][322]LogTexture: Display: Building textures: /Game/Maps/TestMap.TestMap:PersistentLevel.Landscape_0.Texture2D_4 (BGRA8, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2022.04.21-14.20.25:308][329]Cmd: TRANSACTION UNDO
+[2022.04.21-14.20.25:308][329]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.04.21-14.20.25:840][337]Cmd: TRANSACTION UNDO
+[2022.04.21-14.20.25:840][337]LogEditorTransaction: Undo Delete Elements
+[2022.04.21-14.20.32:504][459]Cmd: SELECT NONE
+[2022.04.21-14.20.33:164][473]Cmd: SELECT NONE
+[2022.04.21-14.20.33:810][485]Cmd: SELECT NONE
+[2022.04.21-14.20.34:761][505]Cmd: SELECT NONE
+[2022.04.21-14.21.17:232][790]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.21.17:232][790]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.21-14.21.17:232][790]LogShaderCompilers: Display: Total job queries 14976, among them cache hits 103 (0.69%)
+[2022.04.21-14.21.17:232][790]LogShaderCompilers: Display: Tracking 9575 distinct input hashes that result in 5967 distinct outputs (62.32%)
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: RAM used: 19.32 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.18%
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Shaders Compiled: 14581
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Jobs assigned 9655, completed 9575 (99.17%)
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Average time worker was idle: 0.22 s
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Time job spent in pending queue: average 404.60 s, longest 1042.32 s
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Job execution time: average 14.69 s, max 293.33 s
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Job life time (pending + execution): average 420.34 s, max 1069.84
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1661.56 s
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Jobs were issued in 1007 batches (only local compilation was used), average 9.59 jobs/batch
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Average processing rate: 5.76 jobs/sec
+[2022.04.21-14.21.17:233][790]LogShaderCompilers: Display: Effective parallelization: 8.16 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 29.29 sec, max 29.29 sec, min 29.29 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                       FTranscodePageToGPU_CS (compiled    1 times, average 28.45 sec, max 28.45 sec, min 28.45 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                  FOITSortTriangleIndex_Debug (compiled    1 times, average 25.08 sec, max 25.08 sec, min 25.08 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 22.66 sec, max 39.18 sec, min 8.69 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                    FPersistentClusterCull_CS - 5.21% of total time (compiled   48 times, average 14.70 sec, max 24.73 sec, min 8.09 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                        FDiaphragmDOFGatherCS - 4.73% of total time (compiled   41 times, average 15.64 sec, max 46.93 sec, min 1.07 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                             FInstanceCull_CS - 3.77% of total time (compiled  320 times, average 1.60 sec, max 5.57 sec, min 0.72 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                                          FClusteredShadingPS - 3.38% of total time (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 2.84% of total time (compiled   17 times, average 22.66 sec, max 39.18 sec, min 8.69 sec)
+[2022.04.21-14.21.17:234][790]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Total job queries 14976, among them cache hits 103 (0.69%)
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Tracking 10715 distinct input hashes that result in 6268 distinct outputs (58.50%)
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: RAM used: 20.04 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.22%
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Shaders Compiled: 14581
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Jobs assigned 10795, completed 10715 (99.26%)
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Average time worker was idle: 0.20 s
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Time job spent in pending queue: average 418.43 s, longest 1042.32 s
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Job execution time: average 14.47 s, max 293.33 s
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Job life time (pending + execution): average 430.48 s, max 1069.84
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1841.82 s
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Jobs were issued in 1121 batches (only local compilation was used), average 9.63 jobs/batch
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Average processing rate: 5.82 jobs/sec
+[2022.04.21-14.24.17:496][889]LogShaderCompilers: Display: Effective parallelization: 8.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.04.21-14.24.17:497][889]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.04.21-14.24.17:497][889]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.24.17:497][889]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 29.29 sec, max 29.29 sec, min 29.29 sec)
+[2022.04.21-14.24.17:497][889]LogShaderCompilers: Display:                                       FTranscodePageToGPU_CS (compiled    1 times, average 28.45 sec, max 28.45 sec, min 28.45 sec)
+[2022.04.21-14.24.17:497][889]LogShaderCompilers: Display:                                  FOITSortTriangleIndex_Debug (compiled    1 times, average 25.08 sec, max 25.08 sec, min 25.08 sec)
+[2022.04.21-14.24.17:497][889]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 22.66 sec, max 39.18 sec, min 8.69 sec)
+[2022.04.21-14.24.17:498][889]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.04.21-14.24.17:498][889]LogShaderCompilers: Display:                                    FPersistentClusterCull_CS - 4.74% of total time (compiled   48 times, average 14.70 sec, max 24.73 sec, min 8.09 sec)
+[2022.04.21-14.24.17:498][889]LogShaderCompilers: Display:                                        FDiaphragmDOFGatherCS - 4.31% of total time (compiled   41 times, average 15.64 sec, max 46.93 sec, min 1.07 sec)
+[2022.04.21-14.24.17:498][889]LogShaderCompilers: Display:                                             FInstanceCull_CS - 3.43% of total time (compiled  320 times, average 1.60 sec, max 5.57 sec, min 0.72 sec)
+[2022.04.21-14.24.17:498][889]LogShaderCompilers: Display:                                          FClusteredShadingPS - 3.08% of total time (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.24.17:498][889]LogShaderCompilers: Display:                                             FDebugViewModePS - 2.98% of total time (compiled  284 times, average 1.56 sec, max 7.11 sec, min 0.79 sec)
+[2022.04.21-14.24.17:498][889]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Total job queries 14976, among them cache hits 103 (0.69%)
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Tracking 11915 distinct input hashes that result in 6480 distinct outputs (54.39%)
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: RAM used: 20.89 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.28%
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Shaders Compiled: 14581
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Jobs assigned 11995, completed 11915 (99.33%)
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Average time worker was idle: 0.18 s
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Time job spent in pending queue: average 460.32 s, longest 1042.32 s
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Job execution time: average 14.22 s, max 293.33 s
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Job life time (pending + execution): average 471.42 s, max 1069.84
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2023.39 s
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Jobs were issued in 1241 batches (only local compilation was used), average 9.67 jobs/batch
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Average processing rate: 5.89 jobs/sec
+[2022.04.21-14.27.19:089][112]LogShaderCompilers: Display: Effective parallelization: 7.99 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.04.21-14.27.19:090][112]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.04.21-14.27.19:090][112]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.27.19:090][112]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 29.29 sec, max 29.29 sec, min 29.29 sec)
+[2022.04.21-14.27.19:090][112]LogShaderCompilers: Display:                                       FTranscodePageToGPU_CS (compiled    1 times, average 28.45 sec, max 28.45 sec, min 28.45 sec)
+[2022.04.21-14.27.19:090][112]LogShaderCompilers: Display:                                  FOITSortTriangleIndex_Debug (compiled    1 times, average 25.08 sec, max 25.08 sec, min 25.08 sec)
+[2022.04.21-14.27.19:090][112]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 22.66 sec, max 39.18 sec, min 8.69 sec)
+[2022.04.21-14.27.19:091][112]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.04.21-14.27.19:091][112]LogShaderCompilers: Display:                                    FPersistentClusterCull_CS - 4.36% of total time (compiled   48 times, average 14.70 sec, max 24.73 sec, min 8.09 sec)
+[2022.04.21-14.27.19:091][112]LogShaderCompilers: Display:                                        FDiaphragmDOFGatherCS - 3.97% of total time (compiled   41 times, average 15.64 sec, max 46.93 sec, min 1.07 sec)
+[2022.04.21-14.27.19:091][112]LogShaderCompilers: Display:                                             FInstanceCull_CS - 3.16% of total time (compiled  320 times, average 1.60 sec, max 5.57 sec, min 0.72 sec)
+[2022.04.21-14.27.19:091][112]LogShaderCompilers: Display:                                             FDebugViewModePS - 2.97% of total time (compiled  312 times, average 1.54 sec, max 7.11 sec, min 0.79 sec)
+[2022.04.21-14.27.19:091][112]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 2.91% of total time (compiled  297 times, average 1.58 sec, max 3.09 sec, min 0.50 sec)
+[2022.04.21-14.27.19:091][112]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Total job queries 14976, among them cache hits 103 (0.69%)
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Tracking 13225 distinct input hashes that result in 6639 distinct outputs (50.20%)
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: RAM used: 21.28 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.30%
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Shaders Compiled: 14581
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Jobs assigned 13305, completed 13225 (99.40%)
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Average time worker was idle: 0.16 s
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Time job spent in pending queue: average 515.74 s, longest 1127.89 s
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Job execution time: average 13.91 s, max 293.33 s
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Job life time (pending + execution): average 526.06 s, max 1127.89
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2204.50 s
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Jobs were issued in 1372 batches (only local compilation was used), average 9.70 jobs/batch
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Average processing rate: 6.00 jobs/sec
+[2022.04.21-14.30.20:223][520]LogShaderCompilers: Display: Effective parallelization: 7.90 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 29.29 sec, max 29.29 sec, min 29.29 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                       FTranscodePageToGPU_CS (compiled    1 times, average 28.45 sec, max 28.45 sec, min 28.45 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                  FOITSortTriangleIndex_Debug (compiled    1 times, average 25.08 sec, max 25.08 sec, min 25.08 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 22.66 sec, max 39.18 sec, min 8.69 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                    FPersistentClusterCull_CS - 4.05% of total time (compiled   48 times, average 14.70 sec, max 24.73 sec, min 8.09 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                        FDiaphragmDOFGatherCS - 3.68% of total time (compiled   41 times, average 15.64 sec, max 46.93 sec, min 1.07 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                             FDebugViewModePS - 3.10% of total time (compiled  365 times, average 1.48 sec, max 7.11 sec, min 0.79 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 3.09% of total time (compiled  349 times, average 1.54 sec, max 3.09 sec, min 0.50 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display:                                             FInstanceCull_CS - 2.93% of total time (compiled  320 times, average 1.60 sec, max 5.57 sec, min 0.72 sec)
+[2022.04.21-14.30.20:224][520]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.32.10:784][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.04.21-14.32.12:021][280]LogSlate: Window 'Save Content' being destroyed
+[2022.04.21-14.32.12:155][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.04.21-14.32.12:342][280]LogSavePackage: Moving output files for package: /Game/Maps/TestMap
+[2022.04.21-14.32.12:345][280]LogSavePackage: Moving '../../../../../../Users/Thomas/Documents/projet jeu 2.1/Novas-Arenas/Novas_Arenas 5.0/Saved/TestMap5BFBB8A4427CB560E9CEC39AC6B7947A.tmp' to '../../../../../../Users/Thomas/Documents/projet jeu 2.1/Novas-Arenas/Novas_Arenas 5.0/Content/Maps/TestMap.umap'
+[2022.04.21-14.32.12:360][280]LogFileHelpers: No new changes to save!
+[2022.04.21-14.32.12:360][280]LogFileHelpers: Saving map 'TestMap' took 0.245
+[2022.04.21-14.32.12:387][280]LogStall: Shutdown...
+[2022.04.21-14.32.12:391][280]LogStall: Shutdown complete.
+[2022.04.21-14.32.12:432][280]LogSlate: Window 'Novas_arenas - Unreal Editor' being destroyed
+[2022.04.21-14.32.12:608][280]AssetCheck: New page: Asset Save: TestMap
+[2022.04.21-14.32.12:608][280]LogContentValidation: Display: Validating World /Game/Maps/TestMap.TestMap
+[2022.04.21-14.32.12:637][281]Cmd: QUIT_EDITOR
+[2022.04.21-14.32.12:637][281]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.04.21-14.32.12:645][281]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.04.21-14.32.12:645][281]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.04.21-14.32.12:645][281]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.04.21-14.32.12:775][281]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.04.21-14.32.12:776][281]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.04.21-14.32.12:776][281]LogAudio: Display: Audio Device unregistered from world 'TestMap'.
+[2022.04.21-14.32.12:776][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.04.21-14.32.12:778][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.04.21-14.32.12:787][281]LogAudio: Display: Audio Device Manager Shutdown
+[2022.04.21-14.32.12:788][281]LogWindowsTextInputMethodSystem: Activated input method: Français (France) - (Keyboard).
+[2022.04.21-14.32.12:800][281]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.04.21-14.32.12:800][281]LogExit: Preparing to exit.
+[2022.04.21-14.32.12:820][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.04.21-14.32.13:514][281]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.21-14.32.13:575][281]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.04.21-14.32.13:585][281]LogExit: Transaction tracking system shut down
+[2022.04.21-14.32.13:603][281]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.04.21-14.32.13:626][281]LogExit: Editor shut down
+[2022.04.21-14.32.13:837][281]LogExit: Object subsystem successfully closed.
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Total job queries 14976, among them cache hits 103 (0.69%)
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Tracking 13965 distinct input hashes that result in 6749 distinct outputs (48.33%)
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: RAM used: 21.58 MB (0.02 GB) of 1638.40 MB (1.60 GB) budget. Usage: 1.32%
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Shaders Compiled: 14581
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Jobs assigned 14045, completed 13965 (99.43%)
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Average time worker was idle: 0.15 s
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Time job spent in pending queue: average 550.47 s, longest 1239.72 s
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Job execution time: average 13.83 s, max 293.33 s
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Job life time (pending + execution): average 560.44 s, max 1239.72
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2316.51 s
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Jobs were issued in 1446 batches (only local compilation was used), average 9.71 jobs/batch
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Average processing rate: 6.03 jobs/sec
+[2022.04.21-14.32.13:856][281]LogShaderCompilers: Display: Effective parallelization: 7.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 114.64 sec, max 287.30 sec, min 3.99 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 29.29 sec, max 29.29 sec, min 29.29 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                       FTranscodePageToGPU_CS (compiled    1 times, average 28.45 sec, max 28.45 sec, min 28.45 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                  FOITSortTriangleIndex_Debug (compiled    1 times, average 25.08 sec, max 25.08 sec, min 25.08 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 22.66 sec, max 39.18 sec, min 8.69 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                    FPersistentClusterCull_CS - 3.87% of total time (compiled   48 times, average 14.70 sec, max 24.73 sec, min 8.09 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                        FDiaphragmDOFGatherCS - 3.52% of total time (compiled   41 times, average 15.64 sec, max 46.93 sec, min 1.07 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 3.11% of total time (compiled  371 times, average 1.53 sec, max 3.09 sec, min 0.50 sec)
+[2022.04.21-14.32.13:857][281]LogShaderCompilers: Display:                                             FDebugViewModePS - 3.07% of total time (compiled  382 times, average 1.47 sec, max 7.11 sec, min 0.79 sec)
+[2022.04.21-14.32.13:858][281]LogShaderCompilers: Display:                                             FDebugViewModeVS - 2.90% of total time (compiled  366 times, average 1.44 sec, max 3.03 sec, min 0.48 sec)
+[2022.04.21-14.32.13:858][281]LogShaderCompilers: Display: ================================================
+[2022.04.21-14.32.13:931][281]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (872)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module Voice (870)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (868)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module AddContentDialog (866)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module WidgetCarousel (865)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module SubobjectEditor (862)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module SceneOutliner (860)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module StatusBar (858)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (856)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module TimeManagement (854)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module StatsViewer (852)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (850)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module AutomationWorker (848)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (846)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module GooglePADEditor (844)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (842)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (840)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (838)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (836)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (834)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (832)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (830)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module WebMMedia (828)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (826)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module SequenceRecorder (825)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (822)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (820)
+[2022.04.21-14.32.14:118][281]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (818)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (816)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (814)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (812)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (810)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (808)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (806)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (804)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (802)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module PlanarCut (800)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module CharacterAI (798)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (796)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module TextureAlignMode (794)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module BspMode (792)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module GeometryMode (790)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module SmartSnapping (788)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module IKRigEditor (786)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (784)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module ControlRigEditor (782)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module AnimationEditor (781)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module SessionServices (778)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module MeshPaint (776)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (774)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module PlacementMode (773)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module FoliageEdit (770)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module LandscapeEditor (768)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (766)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module ActorPickerMode (764)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module ViewportSnapping (762)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module EditorWidgets (760)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module ViewportInteraction (758)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module ClothPainter (756)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (755)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module LogVisualizer (752)
+[2022.04.21-14.32.14:119][281]LogModuleManager: Shutting down and abandoning module IntroTutorials (750)
+[2022.04.21-14.32.14:120][281]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (748)
+[2022.04.21-14.32.14:120][281]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (746)
+[2022.04.21-14.32.14:120][281]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (745)
+[2022.04.21-14.32.14:120][281]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (743)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (740)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (738)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (736)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (734)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module CSVtoSVG (732)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (730)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module EditorConfig (728)
+[2022.04.21-14.32.14:737][281]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (726)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module EditorFramework (724)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (722)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module TraceInsights (720)
+[2022.04.21-14.32.14:738][281]MemoryProfiler: Shutdown
+[2022.04.21-14.32.14:738][281]NetworkingProfiler: Shutdown
+[2022.04.21-14.32.14:738][281]LoadingProfiler: Shutdown
+[2022.04.21-14.32.14:738][281]TimingProfiler: Shutdown
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module TraceServices (719)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (716)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (715)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module InputBindingEditor (712)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module MergeActors (710)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (708)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module LocalizationService (707)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module HardwareTargeting (704)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (702)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module UndoHistory (700)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module XmlParser (698)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module Blutility (696)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (694)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (693)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (690)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (689)
+[2022.04.21-14.32.14:738][281]LogModuleManager: Shutting down and abandoning module SettingsEditor (686)
+[2022.04.21-14.32.14:739][281]LogModuleManager: Shutting down and abandoning module ProjectLauncher (684)
+[2022.04.21-14.32.14:739][281]LogModuleManager: Shutting down and abandoning module SessionFrontend (682)
+[2022.04.21-14.32.14:739][281]LogModuleManager: Shutting down and abandoning module ProfilerClient (680)
+[2022.04.21-14.32.14:739][281]LogModuleManager: Shutting down and abandoning module DeviceManager (678)
+[2022.04.21-14.32.14:739][281]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (677)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module AutomationController (674)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module AutomationWindow (672)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module Layers (670)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (668)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module DetailCustomizations (666)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module PackagesDialog (664)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (662)
+[2022.04.21-14.32.14:749][281]LogModuleManager: Shutting down and abandoning module Persona (660)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (659)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module AnimGraph (657)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module Kismet (654)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module KismetWidgets (653)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module GraphEditor (650)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module StructViewer (648)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module ClassViewer (646)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module NaniteTools (644)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (642)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module SourceControlWindows (640)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module OutputLog (638)
+[2022.04.21-14.32.14:750][281]LogModuleManager: Shutting down and abandoning module Documentation (636)
+[2022.04.21-14.32.14:751][281]LogModuleManager: Shutting down and abandoning module LiveCoding (634)
+[2022.04.21-14.32.14:755][281]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (632)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module MovieScene (630)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (628)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module LauncherPlatform (626)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module AnalyticsET (624)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module PortalServices (622)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module PortalRpc (620)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module MessagingRpc (618)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (616)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module AudioMixer (615)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module AudioMixerCore (614)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module AIModule (610)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module GameplayDebugger (609)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module AITestSuite (607)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module NavigationSystem (605)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (602)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (600)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module TypedElementFramework (598)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (596)
+[2022.04.21-14.32.14:756][281]LogModuleManager: Shutting down and abandoning module ProfilerService (594)
+[2022.04.21-14.32.14:784][281]LogModuleManager: Shutting down and abandoning module TaskGraph (592)
+[2022.04.21-14.32.14:785][281]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (590)
+[2022.04.21-14.32.14:785][281]LogModuleManager: Shutting down and abandoning module MegascansPlugin (588)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module Bridge (586)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (584)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (582)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangePipelines (580)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeExport (578)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeMessages (576)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeImport (574)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeNodes (572)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (570)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (568)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module InterchangeEditor (566)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (564)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (562)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (560)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module CollectionManager (559)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module SynthesisEditor (556)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module Synthesis (554)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ResonanceAudio (552)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (550)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (548)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module GooglePAD (546)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (544)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (542)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ModelingOperators (540)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (538)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module ModelingComponents (536)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (534)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module MeshModelingTools (532)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module DynamicMesh (530)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (528)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (526)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (524)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (522)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (520)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2022.04.21-14.32.14:933][281]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (498)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (496)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module MediaCompositing (494)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ImgMedia (492)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (490)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module SequencerScripting (488)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module TemplateSequence (486)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (484)
+[2022.04.21-14.32.14:934][281]LogOpenImageDenoise: OIDN shutting down
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (482)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (480)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (478)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (476)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (474)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (473)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (470)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module AlembicImporter (468)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module AlembicLibrary (467)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module GeometryCache (466)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (465)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (460)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module FractureEditor (458)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ChaosNiagara (456)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (454)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module BackChannel (452)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (450)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module AutomationUtils (448)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (446)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (444)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (442)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (440)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (438)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module PluginBrowser (436)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (434)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (432)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (430)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (428)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module EditorDebugTools (426)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module CurveEditorTools (424)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (422)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module CryptoKeys (420)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (418)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (416)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module UObjectPlugin (414)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module UnrealInsightsInterface (412)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (410)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (408)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module PluginUtils (406)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (404)
+[2022.04.21-14.32.14:934][281]LogModuleManager: Shutting down and abandoning module GitSourceControl (402)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (400)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (398)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (396)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (394)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (392)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module Paper2DEditor (390)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module ControlRigSpline (388)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (386)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (384)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (382)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (380)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module SoundFields (378)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (376)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module SignificanceManager (374)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (372)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (370)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (368)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (367)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (364)
+[2022.04.21-14.32.14:935][281]LogModuleManager: Shutting down and abandoning module UdpMessaging (362)
+[2022.04.21-14.32.15:035][281]LogModuleManager: Shutting down and abandoning module TcpMessaging (360)
+[2022.04.21-14.32.15:136][281]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (358)
+[2022.04.21-14.32.15:136][281]LogModuleManager: Shutting down and abandoning module ActorSequence (356)
+[2022.04.21-14.32.15:136][281]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (354)
+[2022.04.21-14.32.15:139][281]LogModuleManager: Shutting down and abandoning module PBIK (352)
+[2022.04.21-14.32.15:139][281]LogModuleManager: Shutting down and abandoning module FullBodyIK (350)
+[2022.04.21-14.32.15:139][281]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (348)
+[2022.04.21-14.32.15:139][281]LogModuleManager: Shutting down and abandoning module Niagara (346)
+[2022.04.21-14.32.15:139][281]LogModuleManager: Shutting down and abandoning module SignalProcessing (345)
+[2022.04.21-14.32.15:139][281]LogModuleManager: Shutting down and abandoning module NiagaraEditor (343)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module NiagaraCore (340)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module GameplayCameras (338)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (336)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (334)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module FacialAnimation (332)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module DataValidation (330)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (328)
+[2022.04.21-14.32.15:140][281]LogModuleManager: Shutting down and abandoning module LevelEditor (327)
+[2022.04.21-14.32.15:141][281]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (326)
+[2022.04.21-14.32.15:141][281]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (324)
+[2022.04.21-14.32.15:141][281]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (322)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module MainFrame (320)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module HotReload (319)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module ContentBrowser (315)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module ToolMenus (314)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module ContentBrowserData (312)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module TreeMap (309)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (306)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (304)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module AnimationSharing (302)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module Paper2D (300)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (298)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module IKRig (296)
+[2022.04.21-14.32.15:142][281]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (294)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module ControlRig (292)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module LevelSequence (291)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (288)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (286)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (284)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module AndroidFileServer (282)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module AnimationDataController (276)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (274)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (272)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module MediaAssets (270)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module Overlay (268)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module OverlayEditor (267)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module VREditor (264)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module StringTableEditor (262)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (260)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (258)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module FunctionalTesting (256)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (254)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (253)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module SlateReflector (244)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module Slate (242)
+[2022.04.21-14.32.15:143][281]LogModuleManager: Shutting down and abandoning module SlateCore (240)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (238)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (236)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module UnrealEd (234)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MRMesh (232)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module Messaging (230)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (228)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (226)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module Networking (224)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module Core (222)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MaterialEditor (220)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MovieSceneTools (218)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module CurveEditor (217)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module Sequencer (215)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module EditorStyle (214)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module KismetCompiler (210)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MeshBuilder (208)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module NaniteBuilder (206)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MeshUtilities (204)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (203)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (202)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (201)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (199)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (197)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (195)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module MaterialBaking (191)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (186)
+[2022.04.21-14.32.15:145][281]LogModuleManager: Shutting down and abandoning module DerivedDataCache (184)
+[2022.04.21-14.32.15:147][281]LogModuleManager: Shutting down and abandoning module TargetPlatform (182)
+[2022.04.21-14.32.15:147][281]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (181)
+[2022.04.21-14.32.15:147][281]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (179)
+[2022.04.21-14.32.15:147][281]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (175)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (173)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module AudioFormatBink (171)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (169)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (167)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (165)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (163)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (161)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (159)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (157)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (155)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (153)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (151)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TextureFormat (149)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (148)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (146)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (144)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (142)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (140)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (138)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module ImageWrapper (137)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module TurnkeySupport (133)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module InputCore (130)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module Settings (128)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (126)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (124)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (123)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module Chaos (120)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module GeometryCore (119)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (116)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (115)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module AVEncoder (114)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module D3D11RHI (110)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (108)
+[2022.04.21-14.32.15:148][281]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (106)
+[2022.04.21-14.32.15:149][281]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (104)
+[2022.04.21-14.32.15:149][281]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (102)
+[2022.04.21-14.32.15:149][281]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (100)
+[2022.04.21-14.32.15:149][281]LogModuleManager: Shutting down and abandoning module HairStrandsCore (98)
+[2022.04.21-14.32.15:149][281]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.04.21-14.32.15:149][281]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.04.21-14.32.15:149][281]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (92)
+[2022.04.21-14.32.15:150][281]LogModuleManager: Shutting down and abandoning module XMPP (87)
+[2022.04.21-14.32.15:150][281]LogModuleManager: Shutting down and abandoning module WebSockets (86)
+[2022.04.21-14.32.15:165][281]LogModuleManager: Shutting down and abandoning module HTTP (83)
+[2022.04.21-14.32.15:165][281]LogHttp: Warning: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.04.21-14.32.15:165][281]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFD2F33D1-4A82-A209-E993-9FA375E81DBB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.1-19764885%2B%2B%2BUE5%2BRelease-5.0&UserID=35d3241e4db3acf4216aebbdb75a8c30%7C3806da9c082248ca96fd9d6201b71707%7C406f7d83-df47-4b18-8a52-1983ff6a008b&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.04.21-14.32.15:165][281]LogHttp: Warning: Cleaning up 1 outstanding Http requests.
+[2022.04.21-14.32.15:194][281]LogModuleManager: Shutting down and abandoning module SSL (82)
+[2022.04.21-14.32.15:195][281]LogModuleManager: Shutting down and abandoning module WmfMedia (78)
+[2022.04.21-14.32.15:198][281]LogModuleManager: Shutting down and abandoning module Media (77)
+[2022.04.21-14.32.15:199][281]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2022.04.21-14.32.15:199][281]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (72)
+[2022.04.21-14.32.15:199][281]LogModuleManager: Shutting down and abandoning module ChaosCloth (70)
+[2022.04.21-14.32.15:199][281]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (68)
+[2022.04.21-14.32.15:199][281]LogModuleManager: Shutting down and abandoning module NiagaraShader (66)
+[2022.04.21-14.32.15:199][281]LogModuleManager: Shutting down and abandoning module VariantManagerContent (64)
+[2022.04.21-14.32.15:199][281]LogModuleManager: Shutting down and abandoning module DatasmithContent (62)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module PixWinPlugin (60)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module AISupportModule (58)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module DesktopPlatform (56)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (54)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (52)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (50)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module PlatformCrypto (48)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (46)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module SourceControl (45)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module XGEController (42)
+[2022.04.21-14.32.15:200][281]LogModuleManager: Shutting down and abandoning module FastBuildController (40)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module Virtualization (32)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module MessageLog (31)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.04.21-14.32.15:201][281]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module SandboxFile (12)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module PakFile (10)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module RSA (9)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module NetworkFile (6)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2022.04.21-14.32.15:203][281]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2022.04.21-14.32.15:230][281]LogD3D11RHI: Shutdown
+[2022.04.21-14.32.15:230][281]LogD3D11RHI: CleanupD3DDevice
+[2022.04.21-14.32.15:235][281]LogExit: Exiting.
+[2022.04.21-14.32.15:257][281]Log file closed, 04/21/22 16:32:15
