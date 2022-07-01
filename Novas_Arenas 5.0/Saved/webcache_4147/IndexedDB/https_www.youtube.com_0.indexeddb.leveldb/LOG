@@ -1,5 +1,0 @@
-2022/05/15-15:36:40.627 c54 Reusing MANIFEST C:/Users/Thomas/Documents/projet jeu 2.1/Novas-Arenas/Novas_Arenas 5.0/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/05/15-15:39:50.840 830 Level-0 table #5: started
-2022/05/15-15:39:50.911 830 Level-0 table #5: 7047 bytes OK
-2022/05/15-15:39:50.980 830 Delete type=0 #3
-2022/05/15-15:39:50.981 830 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
