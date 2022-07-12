@@ -1,76 +1,0 @@
-[0515/153613.449:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
-[0515/153613.449:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
-[0515/153613.449:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
-[0515/153613.449:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 122
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 121
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 120
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
-[0515/153613.450:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
-[0515/153632.836:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 122
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 121
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 120
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
-[0515/153632.836:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
-[0515/153638.916:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
-[0515/153638.916:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
-[0515/153639.237:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
-[0515/153639.237:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
-[0515/153759.455:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
-[0515/154524.693:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
-[0515/184416.666:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Clé non valide pour l’utilisation dans l’état spécifié. (0x8009000B)
-[0515/184420.575:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0515/185928.116:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0630/222257.880:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0630/222332.944:ERROR:device_event_log_impl.cc(208)] [22:23:32.944] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
-[0630/222419.878:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
-[0630/222419.878:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
-[0630/222420.091:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
-[0630/222420.091:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
-[0630/222420.361:ERROR:leveldb_factory.cc(90)] Failed to open LevelDB database from D:/Unreal Projects/Novas-Arenas/Novas_Arenas 5.0/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: D:/Unreal Projects/Novas-Arenas/Novas_Arenas 5.0/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0630/222420.396:ERROR:leveldb_factory.cc(90)] Failed to open LevelDB database from D:/Unreal Projects/Novas-Arenas/Novas_Arenas 5.0/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: D:/Unreal Projects/Novas-Arenas/Novas_Arenas 5.0/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0701/160931.274:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0704/193721.220:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0711/114932.098:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0711/153742.364:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0711/154522.757:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 845
-[0711/161021.914:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0711/184047.810:ERROR:backend_impl.cc(1041)] Critical error found -8
-[0711/184047.819:ERROR:entry_impl.cc(1076)] No file for c10309d2
-[0711/184047.820:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.823:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.824:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.826:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.832:ERROR:entry_impl.cc(1076)] No file for c1030dd2
-[0711/184047.832:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.833:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.834:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.836:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.837:ERROR:entry_impl.cc(1076)] No file for c1030dd8
-[0711/184047.837:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.838:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.838:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.839:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.841:ERROR:entry_impl.cc(1076)] No file for c1030dda
-[0711/184047.841:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.842:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.842:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.843:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.843:ERROR:entry_impl.cc(1076)] No file for c1030dd6
-[0711/184047.916:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184047.938:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184048.015:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184048.047:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184048.123:WARNING:storage_block-inl.h(146)] Failed data load.
-[0711/184054.940:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0711/184224.156:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
