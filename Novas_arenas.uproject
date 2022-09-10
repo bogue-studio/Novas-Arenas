@@ -29,6 +29,11 @@
 		{
 			"Name": "Volumetrics",
 			"Enabled": true
+		},
+		{
+			"Name": "InstantTerra",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1dc7eff718e749c09ae99663a9149c5c"
 		}
 	]
 }
